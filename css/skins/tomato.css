@@ -17,6 +17,12 @@ p {
 .color_border {
   border-color: #FF6347; }
 
+.bg_light {
+  background-color: #FAFAFA; }
+
+.bg_dark {
+  background-color: #222; }
+
 svg {
   height: 100%; }
   svg path {
