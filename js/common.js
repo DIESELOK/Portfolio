@@ -22,9 +22,11 @@ $(document).ready(function() {
 
     $('.toggle_mnu').click(function(){
         if ($(".top_mnu").is(':visible')){
+            $('.cell_center').removeClass('cell_opacity');
             $(".top_mnu").fadeOut(600);
             $(".top_mnu li a").removeClass("fadeInUp animated");
         } else {
+            $('.cell_center').addClass('cell_opacity');
             $(".top_mnu").fadeIn(600);
             $(".top_mnu li a").addClass("fadeInUp animated");
         }
