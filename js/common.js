@@ -14,11 +14,11 @@ $(document).ready(function() {
     $(".toggle_mnu").click(function() {
         $(".sandwich").toggleClass("active");
     });
-        //при клике на ссылки менею прячем меню
+        //при клике на ссылки прячем меню и добавление тєга СПАН
     $(".top_mnu ul a").click(function(){
         $(".top_mnu").fadeOut(600);
         $(".sandwich").toggleClass("active");
-    });
+    }).append('<span>');
 
     $('.toggle_mnu').click(function(){
         if ($(".top_mnu").is(':visible')){
